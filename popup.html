@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Configure GitHub Widgets</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    textarea {
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .button-container {
+      text-align: right;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>Configure Repositories</h3>
+  <textarea id="repoPatterns" rows="10" placeholder="Enter patterns, e.g., -*; +some-repo"></textarea>
+  <div class="button-container">
+    <button id="save">Save</button>
+  </div>
+  <script src="scripts/popup.js"></script>
+</body>
+</html>
